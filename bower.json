@@ -1,0 +1,20 @@
+{
+  "name": "blank",
+  "description": "",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.6.0",
+    "smoothscroll-for-websites": "^1.4.6"
+  }
+}
