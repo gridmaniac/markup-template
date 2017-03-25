@@ -149,11 +149,6 @@ gulp.task('copy-assets', function() {
 
 gulp.task('copy-imgs', function() {
     return gulp.src('./assets/img/*.*')
-        .pipe(imagemin({
-            optimizationLevel: 3, 
-            progressive: true, 
-            interlaced: true
-        }))
         .pipe(gulp.dest(PRODUCTION + '/assets/img'))
 });
 
