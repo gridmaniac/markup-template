@@ -46,6 +46,8 @@ const BROWSERS = [
   'bb >= 10'
 ];
 
+var testchick = 'HELLO';
+
 gulp.task('sass', function () {
     return gulp.src('scss/app.scss')
         .pipe(sass())
